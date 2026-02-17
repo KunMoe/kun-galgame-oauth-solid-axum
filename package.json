@@ -7,7 +7,8 @@
     "dev:backend": "cd backend && cargo watch -x run",
     "build": "pnpm run build:frontend && pnpm run build:backend",
     "build:frontend": "cd frontend && pnpm run build",
-    "build:backend": "cd backend && cargo build --release"
+    "build:backend": "cd backend && cargo build --release",
+    "i:deps": "pnpm i && cd frontend && pnpm i"
   },
   "devDependencies": {
     "concurrently": "^9.2.1"
