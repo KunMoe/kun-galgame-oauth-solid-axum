@@ -10,7 +10,7 @@ const KUN_SITE_DESCRIPTION =
   '为 鲲 Galgame / Kun Visual Novel 及其所有网站集群定制化开发的企业级、高可用性、最快速、最先进的 OAuth 系统, 为鲲 Galgame 的所有子网站提供可靠的账户体系认证服务'
 const KUN_SITE_URL = 'https://www.kungal.com'
 const KUN_SITE_URL_BACKUP = 'https://www.kungal.org'
-const KUN_SITE_OAUTH = 'https://oauth.kungal.com'
+const KUN_SITE_OAUTH = 'https://account.nextmoe.com'
 const KUN_SITE_NAV = 'https://nav.kungal.org'
 const KUN_SITE_PATCH = 'https://www.moyu.moe'
 const KUN_SITE_STICKER = 'https://sticker.kungal.com'
