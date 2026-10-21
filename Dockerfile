@@ -1,5 +1,5 @@
 # 1. Frontend Builder
-FROM node:stable AS frontend-builder
+FROM node:24.22.1 AS frontend-builder
 WORKDIR /app/frontend
 COPY frontend/package*.json ./
 RUN npm install
